@@ -72,7 +72,23 @@ If you are a plugin author, please contribute to this repository by documenting 
 - `org.gradle.jvm.version`
   - [Source code](https://github.com/gradle/gradle/blob/master/subprojects/core-api/src/main/java/org/gradle/api/attributes/java/TargetJvmVersion.java)
   - [Documentation](https://docs.gradle.org/nightly/javadoc/org/gradle/api/attributes/java/TargetJvmVersion.html)
-      - Integer (8-25)   
+      - Integer (8-25)  
+       
+### From Native Ecosystem
+#### [Userguide](https://docs.gradle.org/current/userguide/variant_attributes.html#native_ecosystem_specific_attributes)
+- `org.gradle.native.debuggable` : boolean
+- `org.gradle.native.optimized`  :boolean
+- `org.gradle.native.architecture`
+  - Known values
+    - `x86`
+    - `x86-64`
+    - `aarch64`
+- `org.gradle.native.operatingSystem`
+  - Known values
+    - `windows`
+    - `linux`
+    - `macos`
+
 
 ### From Kotlin Gradle Plugin
 - `org.jetbrains.kotlin.platform.type`
