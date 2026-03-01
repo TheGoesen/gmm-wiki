@@ -143,3 +143,6 @@ If you are a plugin author, please contribute to this repository by documenting 
     - `org.gradle.libraryelements`
     - `org.jetbrains.kotlin.platform.type`
     - `org.jetbrains.kotlin.native.target`
+
+### From [Extra Java Module Info Gradle plugin](https://github.com/gradlex-org/extra-java-module-info)
+- `javaModule` : boolean
